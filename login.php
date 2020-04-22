@@ -9,23 +9,17 @@
 
         session_start();
 
-        if(isset($_POST['loginBtn'])){
-            $username = $_POST['username'];
-            $password =  $_POST['password'];
-        }else
         if(isset($_GET['err'])){
             $err = $_GET['err'];
 
             if($err == '1'){
                 Messages::setMsg("Invalid username or password.","error");
-            }elseif($err == '2'){
-                Messages::setMsg("Invalid recaptcha.","error");
             }
         }
 ?>
 
 <body>
-    <script src='https://www.google.com/recaptcha/api.js' async defer></script>
+
     <?php
          include "includes/navbar.php";
      ?>
@@ -51,9 +45,6 @@
                         <label>Password</label>
                         <input type="password" name="password" placeholder="Password" value="12345" required>
                     </div>
-
-                    <!-- Recaptcha -->
-                    <div class="g-recaptcha" data-sitekey="6LeKFY4UAAAAAK_wO_RC5UvJpq2xIYi3kQ7unzkx"></div>
 
                     <!-- Message -->
                     <?php echo Messages::display(); ?>

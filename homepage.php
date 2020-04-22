@@ -1,6 +1,8 @@
 <?php
 
     require("includes/Header.php");
+    require "config.php";
+
     session_start();
 
     $header = new Header("homepage","homepage.css");
