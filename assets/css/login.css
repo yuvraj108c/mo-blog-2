@@ -1,0 +1,25 @@
+body {
+  background-color: #f2f4f978;
+}
+#login {
+  margin-top: 5%;
+  height: 80%;
+}
+#login h2 {
+  text-align: center;
+}
+
+#login .ui.card {
+  width: 40%;
+  margin: 0 auto;
+}
+
+#login form .field {
+  margin-bottom: 5% !important;
+}
+
+#login .bottom {
+  text-align: center;
+  font-size: 1.1em;
+  margin-top: 5%;
+}

@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section.details {
+  margin: 5%;
+}
+
+div.post {
+  width: 70%;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+p.description {
+  line-height: 30px;
+  font-size: 1.3em;
+  margin-top: 5%;
+}
+
+div.meta {
+  margin: 3% 0 5% 0;
+}
+
+div.meta span {
+  margin-right: 3%;
+}
+
+span.ui.label {
+  margin-right: 3%;
+}
+
+#scroll-to-top {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#progress {
+  background-color: teal;
+  height: 4px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}

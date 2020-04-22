@@ -1,0 +1,24 @@
+nav.ui.menu {
+  margin: 0;
+  padding: 1%;
+}
+nav .ui.container {
+  width: 85%;
+  position: relative;
+}
+
+#subLogo {
+  color: #29c32f;
+  font-style: italic;
+}
+
+.ui.menu .logo {
+  font-size: 1.5em;
+  padding-top: 0.8%;
+  margin-bottom: 5px;
+}
+
+.buttons {
+  position: absolute;
+  right: 0;
+}
