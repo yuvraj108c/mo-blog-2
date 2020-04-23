@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 <users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/users.xsd">
     <user id="1">
         <username>John</username>
@@ -40,4 +40,4 @@
         <email>john@gmail.comtt</email>
         <password>098f6bcd4621d373cade4e832627b4f6</password>
     </user>
-</users>
+<user id="9"><username>johntesttestestest</username><email>john@gmail.comtest</email><password>098f6bcd4621d373cade4e832627b4f6</password></user></users>

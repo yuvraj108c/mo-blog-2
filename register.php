@@ -44,8 +44,9 @@
 
                 <div class="content">
 
-                    <form class="ui large form" method="POST"
-                        action="<?php echo SERVER_URL . '/handlers/register-handler.php' ?>">
+                    <form class="ui large form" method="POST" action="<?php echo SERVER_URL . '/server/user' ?>">
+
+                        <input type="hidden" name="type" value="register" />
 
                         <!-- Username -->
                         <div class="field">
