@@ -4,7 +4,7 @@
     function load(){
 
         //return ("testing service");
-        $posts = array();
+        $posts = new ArrayObject();
         $xml = simplexml_load_file('data/posts.xml') or die ("Error:Cannot create object");
        /* 
         foreach ($xml ->children() as $x){
@@ -31,8 +31,8 @@
     $server -> configureWSDL("posts","urn:posts");
 
 
-    $server -> register("load",array(),array("return"=>"xsd:xml"));
-
+    $server -> register("load",array(),array("return"=>"xml:string"));
+//$server ->handle();
     $server -> service(file_get_contents("php://input"));
 
 
