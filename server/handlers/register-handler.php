@@ -37,7 +37,7 @@
                         }
                     }else{
                         $_SESSION['userLoggedIn'] = $username;
-                        header("Location: " . Constants::$root_client ."homepage.php");
+                        header("Location: " . Constants::$root_client ."dashboard.php");
                     }
                 }
             } 

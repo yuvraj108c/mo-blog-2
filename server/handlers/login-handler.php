@@ -14,6 +14,6 @@ if(isset($_POST['loginBtn'])){
         header("Location: " . Constants::$root_client . "login.php?err=1");
     }else{
         $_SESSION['userLoggedIn'] = $username;
-        header("Location: " . Constants::$root_client ."homepage.php");
+        header("Location: " . Constants::$root_client ."dashboard.php");
     }
 } 
