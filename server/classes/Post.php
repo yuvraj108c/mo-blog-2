@@ -31,9 +31,10 @@ class Post{
 
     public function getPostById($id){
         $postsXML = simplexml_load_file(Constants::$postsXmlPath);
+
         foreach($postsXML as $post){
             if($post->id == $id){
-                return $post;
+                return $post->asXML();
             }
         }
     }

@@ -18,7 +18,6 @@
             <?php 
 
              $myPosts = file_get_contents(SERVER_URL."/server/posts/user/".$_SESSION["userLoggedIn"]);
-            //   header("Location: ".SERVER_URL."/server/posts/user/".$_SESSION["userLoggedIn"]);
             
             if(!$myPosts){
                 echo "Create a post to get started!";

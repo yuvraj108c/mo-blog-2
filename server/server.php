@@ -14,6 +14,9 @@ switch ($controller) {
                 if($_GET["action"] == "user"){
                     $myPosts = $POST->getPostsByUsername($_GET["data"]);
                     echo $myPosts;
+                }elseif($_GET["action"] == "id"){
+                    $post = $POST->getPostById($_GET["data"]);
+                    echo $post;
                 }
             }
         } 
