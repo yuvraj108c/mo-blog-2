@@ -32,7 +32,9 @@
 
             <div class="content">
 
-                <form method="POST" class="ui form" action="<?php echo SERVER_URL . '/handlers/login-handler.php' ?>">
+                <form method="POST" class="ui form" action="<?php echo SERVER_URL . '/server/user' ?>">
+
+                    <input type="hidden" name="type" value="login" />
 
                     <!-- Username -->
                     <div class="field">

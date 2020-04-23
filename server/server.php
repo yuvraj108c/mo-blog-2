@@ -1,6 +1,9 @@
 <?php
 require("classes/Constants.php");
 require("classes/Post.php");
+require("classes/Account.php");
+
+session_start();
 
 $method = $_SERVER['REQUEST_METHOD'];
 $controller = $_GET["controller"];
@@ -41,6 +44,27 @@ switch ($controller) {
                     $POST->deletePost($id);
                     header("Location: " . Constants::$root_client ."dashboard.php");
                 }
-    }
+        }
+        break;
+
+    case "user":
+        if($method == "POST"){
+            if($_POST["type"] == "login"){
+                $username = $_POST['username'];
+                $password =  $_POST['password'];
+            
+                $account = new Account();
+            
+                if(!$account->validateUserLogin($username,$password)){
+                    header("Location: " . Constants::$root_client . "login.php?err=1");
+                }else{
+                    $_SESSION['userLoggedIn'] = $username;
+                    header("Location: " . Constants::$root_client ."dashboard.php");
+                }
+            }elseif($_POST["type"] == "logout"){
+                unset($_SESSION['userLoggedIn']);
+                header("Location: " . Constants::$root_client ."login.php");
+            }
+        }
     break;
 }

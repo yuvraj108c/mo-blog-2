@@ -6,8 +6,8 @@ class Constants
     public static $root_client = "http://localhost/mo-blog-2/";
 
     public static $postsXmlPath = "./data/posts.xml";
-    public static $usersXmlPath = "../data/users.xml";
-    public static $usersXsdPath = "../data/xsd/users.xsd";
+    public static $usersXmlPath = "./data/users.xml";
+    public static $usersXsdPath = "./data/xsd/users.xsd";
     public static $postsXsdPath = "./data/xsd/posts.xsd";
 
     //Login

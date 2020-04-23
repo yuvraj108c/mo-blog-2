@@ -25,7 +25,7 @@
                 echo "<div class='buttons'>";
                 echo "<a class='ui grey button' href='create.php'>Create Post</a>";
                 echo "<a class='ui teal button' href='dashboard.php'>Dashboard</a>";
-                echo "<a class='ui basic grey button' href='".SERVER_URL."/handlers/logout-handler.php'>Log out</a>";
+                echo "<form method='POST' action='".SERVER_URL."/server/user' style='display:inline-block'><button type='submit' class='ui basic grey button' name='type' value='logout'>Log out</button></form>";
                 echo "</div>";
             }
             ?>
