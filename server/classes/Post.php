@@ -112,7 +112,7 @@ class Post{
     }
 
     public function updatePost($id,$title,$descri,$cat,$imgURL){
-        $postsXML = simplexml_load_file(Constants::$root .Constants::$postsXmlPath);
+        $postsXML = simplexml_load_file(Constants::$postsXmlPath);
 
         foreach($postsXML as $p){
             if($p->id == $id){
@@ -122,7 +122,7 @@ class Post{
                 $p->imageUrl=$imgURL;
             }
         }
-        $postsXML->asXML("../../".Constants::$postsXmlPath);
+        $postsXML->asXML(Constants::$postsXmlPath);
     }
     
     public function deletePost($id){

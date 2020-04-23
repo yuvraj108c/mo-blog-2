@@ -18,6 +18,16 @@ switch ($controller) {
                     $post = $POST->getPostById($_GET["data"]);
                     echo $post;
                 }
+            }elseif ($method == "POST"){
+                $id=$_POST["save"];
+                $title = $_POST['title'];
+                $descri = $_POST['descri'];
+                $cat =  $_POST['cat'];
+                $imgURL =  $_POST['imgURL'];
+            
+                $Post = new Post();
+                $Post->updatePost($id,$title,$descri,$cat,$imgURL);
+                header("Location: " . Constants::$root_client ."dashboard.php");
             }
         } 
     break;

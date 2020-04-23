@@ -19,10 +19,8 @@
         <div class="ui container">
 
             <?php
-            // $myPost =  header("Location: ".SERVER_URL."/server/posts/id/".$_GET["id"]);
             $myPost =  file_get_contents(SERVER_URL."/server/posts/id/".$_GET["id"]);
             $myPost = simplexml_load_string($myPost);
-            echo $myPost;
         ?>
 
             <div class="post">
