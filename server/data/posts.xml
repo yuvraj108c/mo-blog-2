@@ -22,4 +22,4 @@ Quisque risus dolor, semper nec consequat sed, efficitur vitae nisi. Morbi rutru
     
 
 
-</posts>
+<post><id>7</id><title>Test Post 23</title><description>Thisis a description</description><category>Music</category><imageUrl>https://voicesofbaltimorecom.files.wordpress.com/2018/07/news.jpg</imageUrl><author>John</author><createdOn>2020-04-23</createdOn></post><post><id>8</id><title>Test Post 23</title><description>Thisis a description</description><category>Music</category><imageUrl>https://voicesofbaltimorecom.files.wordpress.com/2018/07/news.jpg</imageUrl><author>John</author><createdOn>2020-04-23</createdOn></post></posts>

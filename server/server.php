@@ -43,6 +43,18 @@ switch ($controller) {
                     $id=$_POST["save"];
                     $POST->deletePost($id);
                     header("Location: " . Constants::$root_client ."dashboard.php");
+
+                }elseif($type == "create"){
+                    
+                    $username=$_SESSION["userLoggedIn"];
+                    $title = $_POST['title'];
+                    $descri = $_POST['descri'];
+                    $cat =  $_POST['cat'];
+                    $imgURL =  $_POST['imgURL'];
+        
+                    $POST->createPost($title,$descri,$cat,$imgURL,$username);
+                    
+                    header("Location: " . Constants::$root_client ."dashboard.php");
                 }
         }
         break;
