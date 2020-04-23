@@ -126,7 +126,7 @@ class Post{
     }
     
     public function deletePost($id){
-        $postsXML = simplexml_load_file(Constants::$root . Constants::$postsXmlPath);
+        $postsXML = simplexml_load_file(Constants::$postsXmlPath);
         $count=0;
 
         foreach($postsXML as $p){
@@ -136,6 +136,6 @@ class Post{
             $count++;
         }
 
-        $postsXML->asXML("../../".Constants::$postsXmlPath);
+        $postsXML->asXML(Constants::$postsXmlPath);
     }
 }

@@ -39,12 +39,16 @@
                                     <span class="ui label">
                                         <xsl:value-of select="category" />
                                     </span>
-                                    <a class="ui right floated red small button" href="includes/handlers/delete-handler.php?id={id}">
-                                        Delete
-                                    </a>
+                                    <form class="ui right floated" method="POST" action="http://localhost/mo-blog-2/server/server/posts">
+                                        <input type="hidden" name="type" value="delete" />
+
+                                        <button class="ui right floated red small button" name="save" value="{id}">
+                                            Delete
+                                        </button>
+                                    </form>
                                     <a class="ui right floated teal small button" href="edit.php?id={id}">
-                                Edit
-                            </a>
+                                        Edit
+                                    </a>
                                 </div>
                             </div>
                         </div>

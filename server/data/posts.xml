@@ -19,23 +19,7 @@ Quisque risus dolor, semper nec consequat sed, efficitur vitae nisi. Morbi rutru
         <author>John</author>
         <createdOn>2019-11-23</createdOn>
     </post>
-    <post>
-        <id>7</id>
-        <title>This is post 22</title>
-        <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum, eros vitae hendrerit ornare, urna ligula pulvinar ligula, vel condimentum libero orci ut ante. Aliquam sodales tempus velit, in interdum sapien pulvinar quis. Mauris ac cursus eros. Nullam lobortis sapien sed erat rhoncus posuere vel eu mauris. Vestibulum nibh tellus, efficitur a libero nec, rutrum facilisis elit. Sed faucibus consectetur enim. Cras sit amet turpis tristique enim euismod iaculis. Pellentesque consectetur placerat luctus.&#xD;
-&#xD;
-Donec volutpat aliquet sem eu rhoncus. Nulla ac consectetur erat. Maecenas a mauris ut magna vehicula tincidunt. Aliquam erat volutpat. Integer at lorem vel libero viverra commodo ac sit amet risus. Donec ullamcorper arcu vitae dolor sodales mattis. Nam vitae arcu quis odio congue blandit. Nullam placerat malesuada ex sit amet mattis. Duis eleifend dolor mollis enim hendrerit auctor. Vestibulum interdum a metus placerat placerat. Donec at maximus ligula, in gravida ipsum. Mauris elementum ante laoreet neque sodales feugiat. Cras vel luctus neque. Nullam vel pharetra arcu. Etiam varius finibus neque porta viverra. Phasellus non leo at massa pharetra efficitur.&#xD;
-&#xD;
-Suspendisse lacus nulla, sodales eu interdum at, finibus et ligula. Curabitur in sapien porta, convallis libero et, sagittis ipsum. In hac habitasse platea dictumst. Vestibulum tincidunt eget elit in iaculis. Suspendisse vel imperdiet quam, eu pharetra sapien. Cras ut est lectus. Aliquam non massa at neque vulputate dignissim. Donec lobortis varius mauris, ac consequat orci tincidunt nec. Nullam blandit egestas iaculis. Ut et justo semper sapien malesuada placerat in vel nibh. Phasellus hendrerit diam a efficitur dignissim. Nam gravida arcu eget tortor facilisis lacinia. In at arcu id nisl volutpat tincidunt quis non mauris. Sed lacinia pharetra nunc. Phasellus ex tellus, consequat vitae massa varius, auctor molestie massa.&#xD;
-&#xD;
-Fusce et vehicula augue. In tincidunt nisl ipsum, eu auctor felis tempus vitae. Aliquam pulvinar, est sed consectetur vestibulum, tellus urna ornare mi, eu faucibus odio velit quis tellus. Fusce in eros sed velit porttitor gravida. Cras condimentum risus purus, dictum blandit ligula accumsan a. Nam in quam sed augue mattis ornare fermentum eu magna. Aliquam condimentum nibh risus, non aliquet libero maximus vel. Quisque fringilla, risus eget cursus blandit, velit leo accumsan ante, vitae ullamcorper nibh eros id lacus. Nulla at velit placerat, volutpat velit non, porttitor arcu. Fusce pretium commodo ipsum eu mollis. Proin in lectus dapibus, molestie velit id, accumsan magna. Nunc hendrerit vestibulum felis, eget pulvinar diam maximus lobortis. Pellentesque tempus scelerisque neque in ornare. Morbi rhoncus felis in tellus feugiat molestie. Fusce quis augue eget velit convallis cursus non vitae massa. Cras augue ipsum, tristique ut nunc sed, ultrices sagittis metus.&#xD;
-&#xD;
-Quisque risus dolor, semper nec consequat sed, efficitur vitae nisi. Morbi rutrum lectus vitae lectus fermentum pulvinar. Nam non eleifend lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras ut ex condimentum, pretium felis ullamcorper, fringilla orci. Nunc orci neque, tincidunt eget ex eu, congue mollis purus. Suspendisse non risus ac lacus congue finibus. Proin consequat porta metus vitae blandit. Nunc nisl augue, scelerisque ut volutpat imperdiet, varius in augue. Maecenas lacinia mauris massa, sed sollicitudin purus vestibulum at. Proin malesuada augue lorem, vitae maximus nisi auctor eget. Sed pellentesque semper accumsan. Nam vel nulla sit amet turpis aliquet tristique. Aliquam magna eros, suscipit a turpis et, porta suscipit est.</description>
-        <category>Lifestyle2</category>
-        <imageUrl>https://voicesofbaltimorecom.files.wordpress.com/2018/07/news.jpg</imageUrl>
-        <author>John</author>
-        <createdOn>2019-11-23</createdOn>
-    </post>
+    
 
 
 </posts>

@@ -23,8 +23,8 @@
                 Edit Post
             </div>
         </div>
-        <form class="ui form attached fluid segment" method="POST"
-            action="<?php echo SERVER_URL.'/server/posts/id/'.$_GET['id'] ?>">
+        <form class="ui form attached fluid segment" method="POST" action="<?php echo SERVER_URL.'/server/posts' ?>">
+            <input type="hidden" name="type" value="update" />
             <div class="field">
                 <label>Title</label>
                 <input type="text" placeholder="Title" name="title" value="<?php echo($currentPost->title) ?>" required>
